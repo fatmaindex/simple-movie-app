@@ -1,0 +1,84 @@
+.container {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #f0f0f0;
+  }
+  
+  .searchInput {
+    display: block;
+    width: 70%;
+    padding: 12px;
+    margin: 0 auto 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+    outline: none;
+  }
+  
+  .loadingText {
+    text-align: center;
+    font-size: 1.2em;
+    color: #bbb;
+  }
+  
+  .moviesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .movieCard {
+    margin: 15px;
+    width: 200px;
+    text-align: center;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .movieCardHover {
+    transform: scale(1.05);
+  }
+  
+  .movieImage {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .movieTitle {
+    font-size: 1.2em;
+    color: #fff;
+    margin-top: 10px;
+  }
+  
+  .movieYear {
+    font-size: 1em;
+    color: #aaa;
+  }
+  
+  .noMoviesText {
+    text-align: center;
+    font-size: 1.2em;
+    color: #bbb;
+  }
+  .favoriteButton{
+    background-color: rgb(115, 25, 25);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+  }
